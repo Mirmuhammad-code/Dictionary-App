@@ -1,0 +1,43 @@
+:root{
+    --padding-main: 20px;
+    --Primary-color: linear-gradient(#42275a, #734b6d);;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: gray; */
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rosybrown;
+}
+.apptxt{
+    color:aliceblue;
+    padding: var(--padding-main);
+    background-image: var(--Primary-color);
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+.search-bar{
+    margin: 20px;   
+    padding: 8px;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+.button{
+    margin: 20px;   
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:plum;
+    color:white;
+}
+.Deftext{
+    color: aliceblue;
+    margin-left: 20px;
+    font-size: 18px;
+
+}
